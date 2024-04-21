@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow: hidden;
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  font-family: Inter var, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+.App-header {
+  margin-right: unset;
+}
+
+.App-logo {
+  margin-left: -15%;
+}
+
+.nav-items {
+  margin-left: 15% !important;
+}
+
+.sidnav-profile {
+  margin-top: 25%;
+}
+
+.profile-card {
+  margin-left: unset;
+  margin-right: unset;
+}
